@@ -1,6 +1,6 @@
 {
   "name": "android-collection-utilities",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "group": "com.github.uoxx3",
   "package": "uoxx3.collection",
   "build-info": {
@@ -25,7 +25,7 @@
       "pom": {
         "url": "https://github.com/uoxx3/java-collection-utilities.git",
         "description": "Library with base utilities for the Java language",
-        "artifact-id": "android",
+        "artifact-id": "jcsu-android",
         "licenses": [
           {
             "name": "MIT",

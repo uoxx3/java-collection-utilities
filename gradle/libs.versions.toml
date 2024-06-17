@@ -4,11 +4,11 @@
 # ---------------------------------------------------
 # - Android versions
 # ---------------------------------------------------
-version-library-android-annotation = "1.7.1"
-version-library-android-compact = "1.6.1"
+version-library-android-annotation = "1.8.0"
+version-library-android-compact = "1.7.0"
 version-library-android-espresso = "3.5.1"
 version-library-android-junit = "1.1.5"
-version-library-android-material = "1.11.0"
+version-library-android-material = "1.12.0"
 
 # ---------------------------------------------------
 # - Java versions
@@ -16,7 +16,7 @@ version-library-android-material = "1.11.0"
 version-library-java-google-gson = "2.10.1"
 version-library-java-jetbrains-annotations = "24.1.0"
 version-library-java-junit-jupiter = "5.10.0"
-version-library-java-uoxx3-core-utilities = "1.0.2"
+version-library-java-uoxx3-core-utilities = "1.0.3"
 
 # ---------------------------------------------------
 # - Plugin versions
@@ -37,12 +37,12 @@ android-com-android-compat = { group = "androidx.appcompat", name = "appcompat",
 android-com-android-material = { group = "com.google.android.material", name = "material", version.ref = "version-library-android-material" }
 android-com-android-test-espresso = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "version-library-android-espresso" }
 android-com-android-test-junit = { group = "androidx.test.ext", name = "junit", version.ref = "version-library-android-junit" }
-android-com-github-uoxx3-android-core-utilities = { group = "com.github.uoxx3.java-core-utilities", name = "android", version.ref = "version-library-java-uoxx3-core-utilities" }
+android-com-github-uoxx3-android-core-utilities = { group = "com.github.uoxx3.java-core-utilities", name = "jcu-android", version.ref = "version-library-java-uoxx3-core-utilities" }
 
 # ---------------------------------------------------
 # - Java libraries
 # ---------------------------------------------------
-java-com-github-uoxx3-java-core-utilities = { group = "com.github.uoxx3.java-core-utilities", name = "jvm", version.ref = "version-library-java-uoxx3-core-utilities" }
+java-com-github-uoxx3-java-core-utilities = { group = "com.github.uoxx3.java-core-utilities", name = "jcu-jvm", version.ref = "version-library-java-uoxx3-core-utilities" }
 java-com-google-code-gson = { group = "com.google.code.gson", name = "gson", version.ref = "version-library-java-google-gson" }
 java-org-jetbrains-annotations = { group = "org.jetbrains", name = "annotations", version.ref = "version-library-java-jetbrains-annotations" }
 java-org-junit-jupiter-Bom = { group = "org.junit", name = "junit-bom", version.ref = "version-library-java-junit-jupiter" }
